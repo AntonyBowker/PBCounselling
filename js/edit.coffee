@@ -5,9 +5,22 @@ $(document).ready () ->
 		e.preventDefault()
 		$.ajax
 			type: 'POST'
-			url: 'php/form_handler.php'
+			url: 'php/save.php'
 			success: (result) ->
-				$("#text").html(result)
+				msg "Page Saved"
 			error: (XHR) ->
-				$("body").append "Sorry, there was an error getting the page.  Please try again later"
-			data: $('form').serialize() + "&submit=" + $(@).attr "value" 
+				msg "Error Saving Page"
+			data: $('form').serialize()
+	$("#pageSelect").on "change", () ->
+		$.ajax
+			type: 'POST'
+			url: 'php/load.php'
+			success: (result) ->
+				msg "Loaded Page"
+				$("#text").html result 
+			error: (XHR) ->
+				msg "Error Loading Page"
+			data: $('form').serialize()
+ 
+msg = (msg) -> 
+	$("#messageArea").html msg

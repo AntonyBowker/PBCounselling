@@ -14,12 +14,14 @@
 <h1>Page Editor</h1>
 <form method="POST" id="editForm">
 	<select name="pageSelect" id="pageSelect">
+		<option value="" selected disabled>Select Page:</option>
 		<option value="main1">Page 1</option>
 		<option value="main2">Page 2</option>
 		<option value="main3">Page 3</option>
 	</select>
+	<div id="messageArea"></div>
 	<textarea id="text" name="text"></textarea>
-	<input type="submit" class = "submit" value="load" name="submit" />
+	
 	<input type="submit" class = "submit" value="save" name="submit" />
 </form>
 </body>

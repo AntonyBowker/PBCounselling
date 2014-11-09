@@ -6,11 +6,21 @@ html, body {
 }
 *{@include box-sizing(border-box);}
 
+body {
+	@include background(linear-gradient(45deg, #fff, transparent), linear-gradient(#eee, #fff 50%, #eee));
+	background-size: 10px 10px, 100%;
+	text-align: center;
+}
 
 h1 {
-	text-align: center;
-	font-size: 24px;
+	display: inline-block;
 	margin: 20px;
+	padding: 10px;
+	font-family: sans-serif;
+	background: hsla(0,100%,100%, 0.8);
+	font-size: 24px;
+	border-radius: 8px;
+	
 }
 form {
 	height: 400px;
@@ -18,7 +28,24 @@ form {
 	margin: 20px auto;
 	border: 1px solid #444;
 	border-radius: 10px;
-	@include background(linear-gradient(#eee, #aaa));
+	@include background(linear-gradient(#eee, #ccc));
+	//@include background(linear-gradient(#eee, #ddd));
+	#pageSelect{
+		border-radius: 3px;
+		width: 30%;
+		height: 6%;
+		margin: 2%;
+		text-align: center;
+	}
+	#messageArea{
+		height: 6%;
+		width: 60%;
+		margin: 2%;
+		float: right;
+		font-family: sans-serif;
+		line-height: 100%;
+		text-align: center;
+	}
 	textarea{
 		display: block;
 		width: 90%;
@@ -26,23 +53,11 @@ form {
 		margin: 0 5%;
 		border-radius: 10px;
 	}
-	select{
-		border-radius: 3px;
-		width: 30%;
-		height: 6%;
-		margin: 2%;
-		text-align: center;
-	}
 	input[type=submit]{
 		border-radius: 10px;
 		height: 10%;
 		width: 30%;
 		margin: 5% 5%;
-		&:first-of-type{
-			float: left;
-		}
-		&:last-of-type{
-			float: right;
-		}
+		float: right;	
 	}
 }

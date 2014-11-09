@@ -19,7 +19,7 @@ html {
 	line-height: 1.5;
 	overflow-x: hidden;
 	@media(min-width: 960px){
-		font-size: 15px;
+		font-size: 14px;
 	}
 	@media(max-width: 960px) and(min-width: 801px){
 		font-size: 13px;
@@ -130,13 +130,14 @@ ul{
 		text-align:right;
 		@media(max-width: 660px){
 			text-align: center;
-			margin: 10px 0;
+			margin: 7px 0;
 		}
 	}
 	li{
 		
 		strong {
 			font-size: 2em;
+			@media(max-width: 660px) {font-size: 1.5em};
 		}
 		em {
 			line-height: 1em;

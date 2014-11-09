@@ -30,6 +30,10 @@ class Page {
 		));
 
 	}
+
+	public function close(){
+		$this->dbh = null;
+	}
 }
 
 ?>

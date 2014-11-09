@@ -76,27 +76,60 @@ html, body {
   box-sizing: border-box;
 }
 
-/* line 10, ../sass/edit.scss */
-h1 {
+/* line 9, ../sass/edit.scss */
+body {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjEuMCIgeDI9IjEuMCIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZWVlZWVlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: linear-gradient(45deg, #ffffff, rgba(0, 0, 0, 0)), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(50%, #ffffff), color-stop(100%, #eeeeee));
+  background: -moz-linear-gradient(45deg, #ffffff, rgba(0, 0, 0, 0)), -moz-linear-gradient(#eeeeee, #ffffff 50%, #eeeeee);
+  background: -webkit-linear-gradient(45deg, #ffffff, rgba(0, 0, 0, 0)), -webkit-linear-gradient(#eeeeee, #ffffff 50%, #eeeeee);
+  background: linear-gradient(45deg, #ffffff, rgba(0, 0, 0, 0)), linear-gradient(#eeeeee, #ffffff 50%, #eeeeee);
+  background-size: 10px 10px, 100%;
   text-align: center;
-  font-size: 24px;
-  margin: 20px;
 }
 
 /* line 15, ../sass/edit.scss */
+h1 {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  font-family: sans-serif;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+/* line 25, ../sass/edit.scss */
 form {
   height: 400px;
   width: 400px;
   margin: 20px auto;
   border: 1px solid #444;
   border-radius: 10px;
-  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2FhYWFhYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #aaaaaa));
-  background: -moz-linear-gradient(#eeeeee, #aaaaaa);
-  background: -webkit-linear-gradient(#eeeeee, #aaaaaa);
-  background: linear-gradient(#eeeeee, #aaaaaa);
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
+  background: -moz-linear-gradient(#eeeeee, #cccccc);
+  background: -webkit-linear-gradient(#eeeeee, #cccccc);
+  background: linear-gradient(#eeeeee, #cccccc);
 }
-/* line 22, ../sass/edit.scss */
+/* line 33, ../sass/edit.scss */
+form #pageSelect {
+  border-radius: 3px;
+  width: 30%;
+  height: 6%;
+  margin: 2%;
+  text-align: center;
+}
+/* line 40, ../sass/edit.scss */
+form #messageArea {
+  height: 6%;
+  width: 60%;
+  margin: 2%;
+  float: right;
+  font-family: sans-serif;
+  line-height: 100%;
+  text-align: center;
+}
+/* line 49, ../sass/edit.scss */
 form textarea {
   display: block;
   width: 90%;
@@ -104,26 +137,11 @@ form textarea {
   margin: 0 5%;
   border-radius: 10px;
 }
-/* line 29, ../sass/edit.scss */
-form select {
-  border-radius: 3px;
-  width: 30%;
-  height: 6%;
-  margin: 2%;
-  text-align: center;
-}
-/* line 36, ../sass/edit.scss */
+/* line 56, ../sass/edit.scss */
 form input[type=submit] {
   border-radius: 10px;
   height: 10%;
   width: 30%;
   margin: 5% 5%;
-}
-/* line 41, ../sass/edit.scss */
-form input[type=submit]:first-of-type {
-  float: left;
-}
-/* line 44, ../sass/edit.scss */
-form input[type=submit]:last-of-type {
   float: right;
 }
