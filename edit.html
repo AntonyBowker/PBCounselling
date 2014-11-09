@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Page Editor</title>
+<link rel="stylesheet" href="stylesheets/edit.css" />
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/edit.js"></script>
+
+</head>
+
+<body>
+<h1>Page Editor</h1>
+<form method="POST" id="editForm">
+	<select name="pageSelect" id="pageSelect">
+		<option value="main1">Page 1</option>
+		<option value="main2">Page 2</option>
+		<option value="main3">Page 3</option>
+	</select>
+	<textarea id="text" name="text"></textarea>
+	<input type="submit" class = "submit" value="load" name="submit" />
+	<input type="submit" class = "submit" value="save" name="submit" />
+</form>
+</body>
+</html>

@@ -1,0 +1,254 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pos",
+				"pos:r	position:relative"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 334.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pacak",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 118.0,
+		"history":
+		[
+			"exit",
+			"clear",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/projects/mumpage",
+		"/C/xampp/htdocs/projects/mumpage/php"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/projects/mumpage/edit.html",
+		"/C/xampp/htdocs/projects/mumpage/home.html",
+		"/C/xampp/htdocs/projects/mumpage/js/edit.coffee",
+		"/C/xampp/htdocs/projects/mumpage/php/page.php",
+		"/C/xampp/htdocs/projects/mumpage/php/form_handler.php",
+		"/C/xampp/htdocs/projects/mumpage/php/connection.php",
+		"/C/xampp/htdocs/projects/mumpage/php/common.php",
+		"/C/xampp/htdocs/projects/mumpage/form_handler.php",
+		"/C/xampp/htdocs/projects/mumpage/page.php",
+		"/C/xampp/htdocs/projects/mumpage/connection.php",
+		"/C/xampp/htdocs/projects/mumpage/common.php",
+		"/C/xampp/htdocs/projects/mumpage/js/edit.js",
+		"/C/xampp/htdocs/projects/mumpage/sass/screen.scss",
+		"/C/Users/Antony/AppData/Roaming/Sublime Text 3/Packages/User/docready.sublime-snippet",
+		"/C/Users/Antony/AppData/Roaming/Sublime Text 3/Packages/User/jquery.sublime-snippet",
+		"/C/xampp/htdocs/projects/mumpage/user.php",
+		"/C/xampp/htdocs/projects/mumpage/dbconnect.php",
+		"/C/xampp/htdocs/projects/mumpage/edit.js",
+		"/C/xampp/htdocs/projects/mumpage/editjs.js",
+		"/C/xampp/htdocs/projects/mumpage/main3.html",
+		"/C/xampp/htdocs/projects/mumpage/main1.html",
+		"/C/xampp/htdocs/projects/mumpage/get_page.php",
+		"/C/xampp/htdocs/projects/mumpage/main4.html",
+		"/C/xampp/htdocs/projects/mumpage/sass/edit.scss",
+		"/C/xampp/htdocs/phpsql/login.php",
+		"/C/xampp/htdocs/phpsql/query.php",
+		"/C/xampp/htdocs/phpsql/pdofirst.php",
+		"/C/xampp/htdocs/phpsql/pdodrivers.php",
+		"/C/xampp/htdocs/printfb.php",
+		"/C/xampp/htdocs/phpjam/testfile.php",
+		"/C/xampp/htdocs/phpjam/hello.php",
+		"/C/xampp/htdocs/projects/mumpage/mum.coffee",
+		"/C/xampp/htdocs/projects/mumpage/config.rb",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/htdocs/xampp/biorhythm.php",
+		"/C/xampp/htdocs/projects/mumpage/stylesheets/screen.css",
+		"/C/xampp/htdocs/projects/mumpage - Copy - Copy/stylesheets/screen.css",
+		"/C/xampp/htdocs/projects/mumpage - Copy/config.rb",
+		"/C/xampp/htdocs/projects/mumpage - Copy/sass/screen.scss",
+		"/C/xampp/htdocs/projects/test3/home.html",
+		"/C/xampp/htdocs/projects/test3/sass/screen.sass",
+		"/C/xampp/htdocs/projects/test1/config.rb",
+		"/C/xampp/htdocs/projects/test1/sass/screen.sass",
+		"/C/xampp/htdocs/projects/test2/htmlbasic.html",
+		"/C/xampp/htdocs/projects/test2/config.rb",
+		"/C/xampp/htdocs/projects/test2/sass/screen.scss",
+		"/C/xampp/htdocs/projects/test1/stylesheets/screen.css",
+		"/C/xampp/htdocs/projects/mumpage/main2.html",
+		"/C/xampp/htdocs/projects/mumpage/jquery-1.11.1.js",
+		"/C/Users/Antony/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Antony/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/xampp/htdocs/projects/ventolins/sass/screen.sass",
+		"/C/xampp/htdocs/projects/ventolins/script.coffee",
+		"/C/xampp/htdocs/projects/ventolins/sass/screen.scss",
+		"/C/xampp/htdocs/projects/mumpage/mum.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"20",
+			";\n",
+			"%;\n",
+			"font"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "stp.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 123.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
